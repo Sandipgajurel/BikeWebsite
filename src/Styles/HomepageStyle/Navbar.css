@@ -1,0 +1,57 @@
+/* style for navbar */
+.header-content {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.first-col {
+    display: flex;
+    height: auto;
+    gap: 4em;
+    width: auto;
+    flex-wrap: wrap;
+    /* padding-left: 50px; */
+
+    align-items: center;
+}
+
+.second-col {
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+
+.third-col {
+    display: flex;
+    height: auto;
+    gap: 4em;
+    width: auto;
+    flex-wrap: wrap;
+    padding-right: 50px;
+
+    align-items: center;
+}
+
+.text {
+    font-size: 17px;
+}
+
+.login-btn {
+    width: 90px;
+    padding: auto;
+    border-color: blue;
+    color: blue;
+    padding: 10px;
+    font-size: 15px;
+    background-color: white;
+}
